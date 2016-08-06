@@ -1,0 +1,143 @@
+body{
+	color: #777777; font-family: Arial, Helvetica, Helvetica, sans-serif;
+	background: lightgrey; border-color: #dddddd;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+header{
+	background: white;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.headerbackground{
+	overflow: hidden;
+	background: white;
+	width: 100%;
+	border-bottom: 2px lightgrey solid;
+}
+
+.headerbox{
+	padding: 27px;
+	background: #4aaaa5;
+	float: left;
+}
+
+h1{
+	color: white;
+	font-size: 28px; font-family: 'georgia', times, times new roman, serif;
+}
+
+
+
+.links{
+	float: right;
+	margin-top: auto;
+	margin-bottom: auto;
+	
+}
+
+a{
+	color: #777777; text-decoration: none;
+}
+
+h2{color: #4aaaa5; font-size: 24px;
+margin-bottom: 20px;
+padding-bottom: 20px;
+border-bottom: 2px lightgrey solid;
+font-family: 'Georgia', Times, Times New Roman, serif;}
+
+section{
+overflow: hidden;
+width: 960px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.about-me{ float: left;
+	width: 650px;
+	background-color: white;
+	padding: 20px;
+
+}
+
+.connect{
+	float: right;
+	width: 270px;
+	background-color: white;
+	padding: 20px;
+
+}
+
+.profpic{
+	margin: 0px 10px 10px 0px;
+	float: left;
+}
+
+.content{
+	margin: 15px auto 15px auto;
+	padding: 15px 15px 15px 15px;
+}
+
+h3{
+	font-size: 24px;
+	color: #4aaaa5;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 2px lightgrey solid;
+}
+
+.navlist{
+	vertical-align: middle;
+	margin: auto 0px auto 0px;
+	padding: 0px;
+	padding-top: 30px;
+}
+
+ul.navlist li{
+	display: inline;
+	padding-right: 20px;
+	border-right: 1px solid lightgrey;
+	padding-left: 10px;
+
+
+}
+
+ul.navlist li.last{
+	border-right: 0px;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 70px;
+	background-color: #666666;
+	width: 100%;
+	border-top: 5px #4aaaa5 solid;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.submitbutton{
+	color: white;
+	background-color: #4aaaa5;
+	text-align: center;
+	padding left: 20px;
+	padding-right: 20px;
+	margin top: 15px;
+	margin-bottom: 15px;
+
+}
+
+.textarea{
+	height: 150px;
+	width: 600px;
+	margin: 10px 0px 10px 0px;
+}
+
+
